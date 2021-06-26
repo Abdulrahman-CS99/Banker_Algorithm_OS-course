@@ -63,7 +63,7 @@ Here is the sample output.<br /><br />
 There are 5 processes in the system.<br />
 There are 4 resource types.<br />
 The Allocation Matrix is...<br />
-&nbsp A B C D<br />
+ A B C D<br />
 0: 0 0 1 2<br />
 1: 1 0 0 0<br />
 2: 1 3 5 4<br />
