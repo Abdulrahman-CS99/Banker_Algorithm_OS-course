@@ -63,14 +63,14 @@ Here is the sample output.<br /><br />
 There are 5 processes in the system.<br />
 There are 4 resource types.<br />
 The Allocation Matrix is...<br />
-   A B C D<br />
+      A B C D<br />
 0: 0 0 1 2<br />
 1: 1 0 0 0<br />
 2: 1 3 5 4<br />
 3: 0 6 3 2<br />
 4: 0 0 1 4<br />
 The Max Matrix is...<br />
-   A B C D<br />
+     A B C D<br />
 0: 0 0 1 2<br />
 1: 1 7 5 0<br />
 2: 2 3 5 6<br />
