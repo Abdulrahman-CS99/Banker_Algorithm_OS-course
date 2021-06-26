@@ -51,23 +51,23 @@ Here is the Sample input file:<br /><br />
 1:0	4	2	0<br />
 
 
-Here is how the program should be run.
+Here is how the program should be run.<br />
 
-Here is the sample output.
-
-
+Here is the sample output.<br /><br />
 
 
 
 
-	A B	C D
-0:	0 0	1 2
-1:	1 0	0 0
-2:	1 3	5 4
-3:	0 6	3 2
-4:	0 0	1 4
 
 
-	A B	C D
-0:	0 0	1 2
-1:	1 7	5 0
+	A B	C D<br />
+0:	0 0	1 2<br />
+1:	1 0	0 0<br />
+2:	1 3	5 4<br />
+3:	0 6	3 2<br />
+4:	0 0	1 4<br />
+
+
+	A B	C D<br />
+0:	0 0	1 2<br />
+1:	1 7	5 0<br />
