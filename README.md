@@ -36,41 +36,53 @@ i.	Compute if the request can be granted.
 j.	Compute the new available vector (see sample output).
 
 Here is the Sample input file:
-
-5	
-4	
-0	0	1	2
-1	0	0	0
-1	3	5	4
-0	6	3	2
-0	0	1	4
-0	0	1	2
-1	7	5	0
-2	3	5	6
-0	6	5	2
-0	6	5	6
-1	5	2	0
-1:0	4	2	0
-
-
+5
+4
+0 0 1 2
+1 0 0 0
+1 3 5 4
+0 6 3 2
+0 0 1 4
+0 0 1 2
+1 7 5 0
+2 3 5 6
+0 6 5 2
+0 6 5 6
+1 5 2 0
+1:0 4 2 0
 Here is how the program should be run.
-
 Here is the sample output.
-
-
-
-
-
-
-	A B	C D
-0:	0 0	1 2
-1:	1 0	0 0
-2:	1 3	5 4
-3:	0 6	3 2
-4:	0 0	1 4
-
-
-	A B	C D
-0:	0 0	1 2
-1:	1 7	5 0
-2:	2 3	5 6
+There are 5 processes in the system.
+There are 4 resource types.
+The Allocation Matrix is...
+A B C D
+0: 0 0 1 2
+1: 1 0 0 0
+2: 1 3 5 4
+3: 0 6 3 2
+4: 0 0 1 4
+The Max Matrix is...
+A B C D
+0: 0 0 1 2
+1: 1 7 5 0
+2: 2 3 5 6
+3: 0 6 5 2
+4: 0 6 5 6
+The Need Matrix is...
+A B C D
+0: 0 0 0 0
+1: 0 7 5 0
+2: 1 0 0 2
+3: 0 0 2 0
+4: 0 6 4 2
+The Available Vector is...
+A B C D
+1 5 2 0
+THE SYSTEM IS IN A SAFE STATE!
+The Request Vector is...
+A B C D
+1:0 4 2 0
+THE REQUEST CAN BE GRANTED!
+The Available Vector is...
+A B C D
+1 1 0 0
