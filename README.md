@@ -35,10 +35,10 @@ h.	Echo the request vector. Label the process making the request and resource ty
 i.	Compute if the request can be granted.
 j.	Compute the new available vector (see sample output).
 
-Here is the Sample input file:
-5
-4
-0 0 1 2
+Here is the Sample input file:<br />
+5<br />
+4<br />
+0 0 1 2<br />
 1 0 0 0
 1 3 5 4
 0 6 3 2
